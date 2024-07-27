@@ -1,0 +1,232 @@
+/* Contact us */
+.get-in-touch{
+  padding: auto;
+}
+
+
+@media screen and (max-width: 735px){
+  .get-in-touch{
+    padding-top: 1rem;
+  }
+}
+.contact-form{
+  border-radius: 10px;
+  margin: auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(202, 217, 226, 0.151);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.contact-form .c-btn{
+  color: rgb(19, 125, 224);
+  border: none;
+  padding: 9px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  font-weight: 800;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;}
+
+.contact-form .f-btn{
+  color:white;
+  margin-top: 1rem;
+  border: none;
+  padding: 18px;
+  border-radius: 29px;
+  font-weight:900;
+  background-color: rgb(19, 102, 211);
+}
+
+.contact-form h1{
+  opacity: 61%;
+  padding-block: 0.2rem;
+}
+.contact-form h4{
+  opacity: 51%;
+  padding-block: 1rem;
+}
+
+.contact-form input{
+  width: 250px;
+  padding: 15px;
+  border-radius: 30px;
+  border: none;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.input-form{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input-form .i-second{
+  display: flex;
+}
+@media (max-width:735px) {
+  .input-form .i-second input{
+    padding: 2%;
+    width: 11rem;
+  }
+}
+
+/* Footer */
+.section_padding{
+  padding: 4rem 5rem;
+  margin-top: 3rem;
+}
+
+.footer{
+  background-color: rgba(19, 20, 20, 0.856);
+}
+
+.lw_footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.lw_footer-links{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.lw_footer-links_div{
+  width: 150px;
+  margin: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  color: white;
+}
+
+a{
+  color: rgb(175, 175, 175);
+  text-decoration: none;
+  margin-bottom: 0.8rem;
+}
+
+.socialmedia{
+  display: flex;
+  flex-direction: row;
+}
+
+.socialmedia img{
+  width: 80%;
+}
+
+.lw_footer-links_div h4{
+  font-size: 25px;
+  line-height: 27px;
+  margin-bottom: 0.9rem;
+  color: rgb(26, 143, 221);
+} 
+
+.lw_footer-links_div p{
+  font-size: 13px;
+  line-height: 15px;
+  margin: 0.5rem 0;
+  cursor: pointer;
+}
+
+.lw_footer-links_div a:hover{
+  color: rgb(221, 169, 26);
+
+}
+.lw_footer-below{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0.2rem;
+}
+
+.lw_footer-below-link a{
+  display: flex;
+  flex-direction: row;
+}
+
+.lw_footer-below-link{
+  font-size: 13px;
+  line-height: 15px;
+  margin-left: 2rem;
+  color:  white;
+  font-weight: 600;
+}
+
+hr{
+  color: white;
+  width: 99.92%;
+}
+
+.lw_footer-copyright p{
+  font-size: 13px;
+  line-height: 15px;
+  color: rgb(221, 169, 26);
+  font-weight: 600;
+}
+
+@media screen and (max-width: 850px) {
+  .lw_footer-heading h1{
+    font-size: 44px;
+    line-height: 50px;
+  }
+
+  
+}
+
+@media screen and (max-width: 550px) {
+  .lw_footer-heading h1{
+    font-size: 34x;
+    line-height: 42px;
+  }
+  .lw_footer-links div{
+    margin: 1rem 0;
+  }
+  .lw-footer-btn p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .lw_footer-below{
+    flex-direction: column;
+    justify-content: left;
+  }
+  .lw_footer-below-links{
+    flex-direction: column;
+  }
+  .lw_footer-links p{
+    margin: 0rem;
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .lw_footer-heading{
+    font-size: 27px;
+    line-height: 38px;
+  }
+}
+
+/* Carousal */
+.carousal-btn{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(19, 125, 224);
+  border: none;
+  padding: 9px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  font-weight: 800;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;}
