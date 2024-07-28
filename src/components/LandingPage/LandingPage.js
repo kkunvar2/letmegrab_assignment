@@ -23,7 +23,7 @@ const LandingPage = () => {
   return (
     <>
         <Nav/>
-        <h4 className=' text-center py-4 md:text-5xl text-2xl text-gray-700 font-semibold'>Welcome to<span className='text-amber-500 font-extrabold '>Letmegrab.</span></h4>
+        <h4 className=' text-center py-4 md:text-5xl text-2xl text-gray-700 font-semibold'>Welcome to<span className='text-amber-500 font-extrabold '> Letmegrab.</span></h4>
         {/* Image Carousal */}
         <div>
         <button className='carousal-btn'>Gallery</button>

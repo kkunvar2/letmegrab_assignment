@@ -66,7 +66,7 @@ const Carousal = () => {
                     Prev
                 </button>
                 <button
-                    className='absolute bottom-40 right-10 text-white bg-indigo-400 rounded-md py-2 px-4'
+                    className='absolute bottom-46 right-10 text-white bg-indigo-400 rounded-md py-2 px-4'
                     onClick={handleNext}
                 >
                     Next
