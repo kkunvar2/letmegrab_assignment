@@ -27,7 +27,7 @@ const Create = () => {
       console.log('Added product');
       navigate('/product');
     } catch (error) {
-      console.error('Error updating post', error);
+      console.error('Error creating post', error);
     }
   };
 

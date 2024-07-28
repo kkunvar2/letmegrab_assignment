@@ -34,7 +34,7 @@ const Carousal = () => {
 
     useEffect(() => {
         //  autoplay 
-        const interval = setInterval(handleNext, 3000); // Change slide every 3 seconds
+        const interval = setInterval(handleNext, 3000); 
 
         return () => clearInterval(interval);
     }, [currentIndex]);

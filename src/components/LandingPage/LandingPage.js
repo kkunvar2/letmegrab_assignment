@@ -23,7 +23,7 @@ const LandingPage = () => {
   return (
     <>
         <Nav/>
-        <h4 className=' text-center py-4 md:text-5xl text-2xl text-gray-700 font-semibold'>Welcome<span className='text-amber-500 font-extrabold '>Letmegrab.</span></h4>
+        <h4 className=' text-center py-4 md:text-5xl text-2xl text-gray-700 font-semibold'>Welcome to<span className='text-amber-500 font-extrabold '>Letmegrab.</span></h4>
         {/* Image Carousal */}
         <div>
         <button className='carousal-btn'>Gallery</button>
@@ -36,7 +36,7 @@ const LandingPage = () => {
         <form className='contact-form'>
             <button className='c-btn'>CONTACTS</button>
             <h1>Get In Touch Now</h1>
-            <h4>We have Developed unique space where you can work and live with your family.</h4>
+            <h4>Contact with us we have provide best services for clients and retailers</h4>
 
             <div className='input-form'>
               <div className='i-first'>
