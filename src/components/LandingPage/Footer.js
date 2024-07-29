@@ -1,6 +1,9 @@
 import React from 'react'
 import '../LandingPage/Landing.css'
 
+import Insta from '../Assests/instagram.png'
+import facebook from '../Assests/facebook.png'
+import twitter from '../Assests/twitter.png'
 
 
 const Footer = () => {
@@ -29,9 +32,9 @@ const Footer = () => {
                 <div className='lw_footer-links_div'>
                     <h5>Follow Us</h5>   
                     <div className='socialmedia'>
-                        <p><img src=''alt='facebook'/></p>
-                        <p><img src='' alt='twitter'/></p>
-                        <p><img src='' alt='insta'/></p>
+                        <p><img className=' h-6 w-12' src={facebook} alt='facebook'/></p>
+                        <p><img className=' h-6 w-12 ml-2' src={twitter} alt='twitter'/></p>
+                        <p><img className=' h-6 w-12 ml-2' src={Insta} alt='instagram'/></p>
                     </div>
                 </div>
             </div>
